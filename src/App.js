@@ -1,7 +1,8 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-
+import {fetchingStudentsList} from './actions'
+import List from './components/List'
 function App() {
   return (
     <div className="App">
